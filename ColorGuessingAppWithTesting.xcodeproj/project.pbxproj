@@ -15,6 +15,7 @@
 		CD52EDE02497F3490035A231 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD52EDDE2497F3490035A231 /* LaunchScreen.storyboard */; };
 		CD52EDEB2497F3490035A231 /* ColorGuessingAppWithTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD52EDEA2497F3490035A231 /* ColorGuessingAppWithTestingTests.swift */; };
 		CD52EDF62497F3490035A231 /* ColorGuessingAppWithTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD52EDF52497F3490035A231 /* ColorGuessingAppWithTestingUITests.swift */; };
+		CD52EE042497F7030035A231 /* ColorGuessingBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD52EE032497F7030035A231 /* ColorGuessingBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CD52EDF12497F3490035A231 /* ColorGuessingAppWithTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorGuessingAppWithTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD52EDF52497F3490035A231 /* ColorGuessingAppWithTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGuessingAppWithTestingUITests.swift; sourceTree = "<group>"; };
 		CD52EDF72497F3490035A231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD52EE032497F7030035A231 /* ColorGuessingBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGuessingBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				CD52EDD52497F3480035A231 /* SceneDelegate.swift */,
 				CD52EDD72497F3480035A231 /* ViewController.swift */,
 				CD52EDD92497F3480035A231 /* Main.storyboard */,
+				CD52EE032497F7030035A231 /* ColorGuessingBrain.swift */,
 				CD52EDDC2497F3490035A231 /* Assets.xcassets */,
 				CD52EDDE2497F3490035A231 /* LaunchScreen.storyboard */,
 				CD52EDE12497F3490035A231 /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD52EE042497F7030035A231 /* ColorGuessingBrain.swift in Sources */,
 				CD52EDD82497F3480035A231 /* ViewController.swift in Sources */,
 				CD52EDD42497F3480035A231 /* AppDelegate.swift in Sources */,
 				CD52EDD62497F3480035A231 /* SceneDelegate.swift in Sources */,
