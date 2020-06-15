@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD52EDD42497F3480035A231 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD52EDD32497F3480035A231 /* AppDelegate.swift */; };
+		CD52EDD62497F3480035A231 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD52EDD52497F3480035A231 /* SceneDelegate.swift */; };
+		CD52EDD82497F3480035A231 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD52EDD72497F3480035A231 /* ViewController.swift */; };
+		CD52EDDB2497F3480035A231 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD52EDD92497F3480035A231 /* Main.storyboard */; };
+		CD52EDDD2497F3490035A231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD52EDDC2497F3490035A231 /* Assets.xcassets */; };
+		CD52EDE02497F3490035A231 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD52EDDE2497F3490035A231 /* LaunchScreen.storyboard */; };
+		CD52EDEB2497F3490035A231 /* ColorGuessingAppWithTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD52EDEA2497F3490035A231 /* ColorGuessingAppWithTestingTests.swift */; };
+		CD52EDF62497F3490035A231 /* ColorGuessingAppWithTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD52EDF52497F3490035A231 /* ColorGuessingAppWithTestingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD52EDE72497F3490035A231 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD52EDC82497F3480035A231 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD52EDCF2497F3480035A231;
+			remoteInfo = ColorGuessingAppWithTesting;
+		};
+		CD52EDF22497F3490035A231 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD52EDC82497F3480035A231 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD52EDCF2497F3480035A231;
+			remoteInfo = ColorGuessingAppWithTesting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD52EDD02497F3480035A231 /* ColorGuessingAppWithTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorGuessingAppWithTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD52EDD32497F3480035A231 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD52EDD52497F3480035A231 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD52EDD72497F3480035A231 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD52EDDA2497F3480035A231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD52EDDC2497F3490035A231 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD52EDDF2497F3490035A231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD52EDE12497F3490035A231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD52EDE62497F3490035A231 /* ColorGuessingAppWithTestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorGuessingAppWithTestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD52EDEA2497F3490035A231 /* ColorGuessingAppWithTestingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGuessingAppWithTestingTests.swift; sourceTree = "<group>"; };
+		CD52EDEC2497F3490035A231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD52EDF12497F3490035A231 /* ColorGuessingAppWithTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorGuessingAppWithTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD52EDF52497F3490035A231 /* ColorGuessingAppWithTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGuessingAppWithTestingUITests.swift; sourceTree = "<group>"; };
+		CD52EDF72497F3490035A231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD52EDCD2497F3480035A231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD52EDE32497F3490035A231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD52EDEE2497F3490035A231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD52EDC72497F3480035A231 = {
+			isa = PBXGroup;
+			children = (
+				CD52EDD22497F3480035A231 /* ColorGuessingAppWithTesting */,
+				CD52EDE92497F3490035A231 /* ColorGuessingAppWithTestingTests */,
+				CD52EDF42497F3490035A231 /* ColorGuessingAppWithTestingUITests */,
+				CD52EDD12497F3480035A231 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD52EDD12497F3480035A231 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD52EDD02497F3480035A231 /* ColorGuessingAppWithTesting.app */,
+				CD52EDE62497F3490035A231 /* ColorGuessingAppWithTestingTests.xctest */,
+				CD52EDF12497F3490035A231 /* ColorGuessingAppWithTestingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD52EDD22497F3480035A231 /* ColorGuessingAppWithTesting */ = {
+			isa = PBXGroup;
+			children = (
+				CD52EDD32497F3480035A231 /* AppDelegate.swift */,
+				CD52EDD52497F3480035A231 /* SceneDelegate.swift */,
+				CD52EDD72497F3480035A231 /* ViewController.swift */,
+				CD52EDD92497F3480035A231 /* Main.storyboard */,
+				CD52EDDC2497F3490035A231 /* Assets.xcassets */,
+				CD52EDDE2497F3490035A231 /* LaunchScreen.storyboard */,
+				CD52EDE12497F3490035A231 /* Info.plist */,
+			);
+			path = ColorGuessingAppWithTesting;
+			sourceTree = "<group>";
+		};
+		CD52EDE92497F3490035A231 /* ColorGuessingAppWithTestingTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD52EDEA2497F3490035A231 /* ColorGuessingAppWithTestingTests.swift */,
+				CD52EDEC2497F3490035A231 /* Info.plist */,
+			);
+			path = ColorGuessingAppWithTestingTests;
+			sourceTree = "<group>";
+		};
+		CD52EDF42497F3490035A231 /* ColorGuessingAppWithTestingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD52EDF52497F3490035A231 /* ColorGuessingAppWithTestingUITests.swift */,
+				CD52EDF72497F3490035A231 /* Info.plist */,
+			);
+			path = ColorGuessingAppWithTestingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD52EDCF2497F3480035A231 /* ColorGuessingAppWithTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD52EDFA2497F3490035A231 /* Build configuration list for PBXNativeTarget "ColorGuessingAppWithTesting" */;
+			buildPhases = (
+				CD52EDCC2497F3480035A231 /* Sources */,
+				CD52EDCD2497F3480035A231 /* Frameworks */,
+				CD52EDCE2497F3480035A231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorGuessingAppWithTesting;
+			productName = ColorGuessingAppWithTesting;
+			productReference = CD52EDD02497F3480035A231 /* ColorGuessingAppWithTesting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD52EDE52497F3490035A231 /* ColorGuessingAppWithTestingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD52EDFD2497F3490035A231 /* Build configuration list for PBXNativeTarget "ColorGuessingAppWithTestingTests" */;
+			buildPhases = (
+				CD52EDE22497F3490035A231 /* Sources */,
+				CD52EDE32497F3490035A231 /* Frameworks */,
+				CD52EDE42497F3490035A231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD52EDE82497F3490035A231 /* PBXTargetDependency */,
+			);
+			name = ColorGuessingAppWithTestingTests;
+			productName = ColorGuessingAppWithTestingTests;
+			productReference = CD52EDE62497F3490035A231 /* ColorGuessingAppWithTestingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD52EDF02497F3490035A231 /* ColorGuessingAppWithTestingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD52EE002497F3490035A231 /* Build configuration list for PBXNativeTarget "ColorGuessingAppWithTestingUITests" */;
+			buildPhases = (
+				CD52EDED2497F3490035A231 /* Sources */,
+				CD52EDEE2497F3490035A231 /* Frameworks */,
+				CD52EDEF2497F3490035A231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD52EDF32497F3490035A231 /* PBXTargetDependency */,
+			);
+			name = ColorGuessingAppWithTestingUITests;
+			productName = ColorGuessingAppWithTestingUITests;
+			productReference = CD52EDF12497F3490035A231 /* ColorGuessingAppWithTestingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD52EDC82497F3480035A231 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Benjamin Stone";
+				TargetAttributes = {
+					CD52EDCF2497F3480035A231 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					CD52EDE52497F3490035A231 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = CD52EDCF2497F3480035A231;
+					};
+					CD52EDF02497F3490035A231 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = CD52EDCF2497F3480035A231;
+					};
+				};
+			};
+			buildConfigurationList = CD52EDCB2497F3480035A231 /* Build configuration list for PBXProject "ColorGuessingAppWithTesting" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD52EDC72497F3480035A231;
+			productRefGroup = CD52EDD12497F3480035A231 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD52EDCF2497F3480035A231 /* ColorGuessingAppWithTesting */,
+				CD52EDE52497F3490035A231 /* ColorGuessingAppWithTestingTests */,
+				CD52EDF02497F3490035A231 /* ColorGuessingAppWithTestingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD52EDCE2497F3480035A231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD52EDE02497F3490035A231 /* LaunchScreen.storyboard in Resources */,
+				CD52EDDD2497F3490035A231 /* Assets.xcassets in Resources */,
+				CD52EDDB2497F3480035A231 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD52EDE42497F3490035A231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD52EDEF2497F3490035A231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD52EDCC2497F3480035A231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD52EDD82497F3480035A231 /* ViewController.swift in Sources */,
+				CD52EDD42497F3480035A231 /* AppDelegate.swift in Sources */,
+				CD52EDD62497F3480035A231 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD52EDE22497F3490035A231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD52EDEB2497F3490035A231 /* ColorGuessingAppWithTestingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD52EDED2497F3490035A231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD52EDF62497F3490035A231 /* ColorGuessingAppWithTestingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD52EDE82497F3490035A231 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD52EDCF2497F3480035A231 /* ColorGuessingAppWithTesting */;
+			targetProxy = CD52EDE72497F3490035A231 /* PBXContainerItemProxy */;
+		};
+		CD52EDF32497F3490035A231 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD52EDCF2497F3480035A231 /* ColorGuessingAppWithTesting */;
+			targetProxy = CD52EDF22497F3490035A231 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD52EDD92497F3480035A231 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD52EDDA2497F3480035A231 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD52EDDE2497F3490035A231 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD52EDDF2497F3490035A231 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD52EDF82497F3490035A231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD52EDF92497F3490035A231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD52EDFB2497F3490035A231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76LC8AC986;
+				INFOPLIST_FILE = ColorGuessingAppWithTesting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.benstone.ColorGuessingAppWithTesting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD52EDFC2497F3490035A231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76LC8AC986;
+				INFOPLIST_FILE = ColorGuessingAppWithTesting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.benstone.ColorGuessingAppWithTesting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD52EDFE2497F3490035A231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76LC8AC986;
+				INFOPLIST_FILE = ColorGuessingAppWithTestingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.benstone.ColorGuessingAppWithTestingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorGuessingAppWithTesting.app/ColorGuessingAppWithTesting";
+			};
+			name = Debug;
+		};
+		CD52EDFF2497F3490035A231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76LC8AC986;
+				INFOPLIST_FILE = ColorGuessingAppWithTestingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.benstone.ColorGuessingAppWithTestingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorGuessingAppWithTesting.app/ColorGuessingAppWithTesting";
+			};
+			name = Release;
+		};
+		CD52EE012497F3490035A231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76LC8AC986;
+				INFOPLIST_FILE = ColorGuessingAppWithTestingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.benstone.ColorGuessingAppWithTestingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColorGuessingAppWithTesting;
+			};
+			name = Debug;
+		};
+		CD52EE022497F3490035A231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76LC8AC986;
+				INFOPLIST_FILE = ColorGuessingAppWithTestingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.benstone.ColorGuessingAppWithTestingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColorGuessingAppWithTesting;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD52EDCB2497F3480035A231 /* Build configuration list for PBXProject "ColorGuessingAppWithTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD52EDF82497F3490035A231 /* Debug */,
+				CD52EDF92497F3490035A231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD52EDFA2497F3490035A231 /* Build configuration list for PBXNativeTarget "ColorGuessingAppWithTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD52EDFB2497F3490035A231 /* Debug */,
+				CD52EDFC2497F3490035A231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD52EDFD2497F3490035A231 /* Build configuration list for PBXNativeTarget "ColorGuessingAppWithTestingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD52EDFE2497F3490035A231 /* Debug */,
+				CD52EDFF2497F3490035A231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD52EE002497F3490035A231 /* Build configuration list for PBXNativeTarget "ColorGuessingAppWithTestingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD52EE012497F3490035A231 /* Debug */,
+				CD52EE022497F3490035A231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD52EDC82497F3480035A231 /* Project object */;
+}
